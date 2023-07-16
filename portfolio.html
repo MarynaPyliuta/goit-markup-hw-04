@@ -25,11 +25,15 @@
             >Web<span class="logo-accent">Studio</span></a
           >
           <ul class="nav-list list">
-            <li><a href="./index.html" class="nav-list link"> Studio</a></li>
+            <li><a href="./index.html" class="nav-link link"> Studio</a></li>
             <li>
-              <a href="./portfolio.html" class="nav-list link"> Portfolio</a>
+              <a href="./portfolio.html" class="nav-link portfolio link">
+                Portfolio</a
+              >
             </li>
-            <li><a href="" class="nav-list link"> Contacts</a></li>
+            <li>
+              <a href="" class="nav-link link"> Contacts</a>
+            </li>
           </ul>
         </nav>
         <address class="address">
@@ -86,13 +90,21 @@
             </li>
             <li class="projects-item">
               <a href="" class="link">
-                <img
-                  src="./images/p-2.jpg"
-                  alt="Cashless payment"
-                  width="360"
-                  height="300"
-                  class="projects-image"
-                />
+                <div class="cashless-payment-cover-container">
+                  <img
+                    src="./images/p-2.jpg"
+                    alt="Cashless payment"
+                    width="360"
+                    height="300"
+                    class="projects-image"
+                  />
+                  <p class="cashless-payment-cover-text">
+                    14 Stylish and User-Friendly App Design Concepts · Task
+                    Manager App · Calorie Tracker App · Exotic Fruit Ecommerce
+                    App · Cloud Storage App
+                  </p>
+                </div>
+
                 <div class="projects-card-content">
                   <h2 class="project-subtitle section-subtitle">
                     Cashless Payment
@@ -226,13 +238,49 @@
     </main>
     <footer class="page-footer">
       <div class="footer-container container">
-        <a href="./index.html" class="footer-logo link"
-          >Web<span class="footer-logo-accent">Studio</span></a
-        >
-        <p class="footer-text">
-          Increase the flow of customers and sales for your business with
-          digital marketing & growth solutions.
-        </p>
+        <div class="footer-logo-container">
+          <a href="./index.html" class="footer-logo link"
+            >Web<span class="footer-logo-accent">Studio</span></a
+          >
+          <p class="footer-text">
+            Increase the flow of customers and sales for your business with
+            digital marketing & growth solutions.
+          </p>
+        </div>
+
+        <div class="footer-social-container container">
+          <p class="footer-social-text">Social media</p>
+          <ul class="footer-social-list list">
+            <li class="footer-social-item">
+              <a href="" class="footer-social-link link">
+                <svg class="footer-social-icon" width="12" height="12">
+                  <use href="./images/symbol-defs.svg#icon-instagram"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="footer-social-item">
+              <a href="" class="footer-social-link link">
+                <svg class="footer-social-icon" width="12" height="12">
+                  <use href="./images/symbol-defs.svg#icon-twitter"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="footer-social-item">
+              <a href="" class="footer-social-link link">
+                <svg class="footer-social-icon" width="12" height="12">
+                  <use href="./images/symbol-defs.svg#icon-facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="footer-social-item">
+              <a href="" class="footer-social-link link">
+                <svg class="footer-social-icon" width="12" height="12">
+                  <use href="./images/symbol-defs.svg#icon-linkedin"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
       </div>
     </footer>
   </body>
