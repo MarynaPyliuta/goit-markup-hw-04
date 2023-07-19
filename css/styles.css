@@ -571,9 +571,7 @@ footer {
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.cashless-payment-cover-container:hover .cashless-payment-cover-text {
-  transform: translateY(0);
-}
+.cashless-payment-cover-container:hover,
 .cashless-payment-cover-container:focus .cashless-payment-cover-text {
   transform: translateY(0);
 }
